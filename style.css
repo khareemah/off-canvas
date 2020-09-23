@@ -28,8 +28,8 @@ body {
 }
 .header .logo a {
   font-size: 30px;
-  font-weight: 600px;
-  color: white;
+  font-weight: 800px;
+  color: #333;
   text-decoration: none;
 }
 /* nav toggle */
@@ -86,7 +86,6 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 37;
   transform: translateX(-100%);
-  transition: 0.5s ease all;
 }
 .nav-overlay.open {
   transform: translateX(0%);
@@ -103,7 +102,6 @@ body {
   background-color: #111;
   z-index: 40;
   transform: translateX(-260px);
-  transition: 0.5s ease all;
   overflow-y: auto;
 }
 .nav.open {
@@ -147,7 +145,6 @@ body {
   display: block;
   padding: 12px 50px;
   position: relative;
-  transition: 0.5s ease all;
 }
 .nav ul li a:hover {
   color: #111;
